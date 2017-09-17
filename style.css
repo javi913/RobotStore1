@@ -1,0 +1,164 @@
+#twocol {
+column-count: 2;
+}
+
+.searchbox {
+    position: fixed;
+    left: 1500px;
+}
+
+#bulletp li {
+    list-style-type: none;
+}
+
+
+
+#nav1 {
+    display:inline;
+    border:20px;
+    background-color:grey;
+    text-align:center;
+}
+
+#navlinkactive {
+    color:black;
+    font-size:16px;
+    background-color:red;
+}
+
+.navlink {
+    color:blue;
+    font-size:16px;
+    background-color:grey;
+    float:left;
+    width:100;
+    height:100%;
+    text-align:center;
+}
+
+#navlinkactive, .navlink {
+    display:block;
+    padding:14px 16px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+#bulletp {
+    padding: 0;
+    margin: 0;
+    overflow:hidden;
+    width:100%;
+    top:0;
+    height:100%;
+    display:inline-block;
+    background-color:grey;
+}
+
+#welcomeimage {
+    display:inline-block;
+    text-align:center;
+    margin-left:400px;
+}
+
+li a:hover:not(.active) {
+  background-color: #31bae7;
+}
+
+.active {
+    color: #4CAF50;
+}
+
+ul {
+
+}
+
+.headername {
+    text-align:center;
+}
+
+#logo {
+    text-align:left;
+    float:left;
+}
+
+#topcolor {
+    background-color: #132145;
+}
+
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+}  
+
+#fontcomp {
+    font-family: 'Cinzel', serif;;
+}
+
+#historyfont {
+    font-family: 'Architects Daughter', cursive;
+}
+
+#robots1 {
+    text-align: center;
+}
+
+#indexfooter {
+    width:90%;
+    height:10%;
+    text-align:center;
+    font-family: 'IM Fell Great Primer', serif;
+}
+
+#questions {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    text-align:center;
+}
+
+#contact1 {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+#robo1bc {
+    background-color:#b0e0e6;
+}
+
+#robo2bc {
+    background-color:#bae1ff;
+}
+
+#robo3bc {
+    background-color:#d0f4f3;
+}
+
+#robots1 li{
+    list-style-type: none
+}
+
+#contactform1 {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #16cac3;
+    padding: 10px;
+    text-align:center;
+}
+
+#hardware1 {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #296b0e;
+    padding: 10px;
+    text-align:center;
+}
+
+legend {
+    text-align:center;
+}
