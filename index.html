@@ -1,13 +1,20 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
     <title>Mr Robot!</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
 </head>
-<div id="contact1">
 
 
 
@@ -15,100 +22,135 @@
 
 
 
-    <header>
-        <div id="topcolor">
-            <div id="logo">
-                <a href="index.html">
+
+<div class="container">
+
+    <body>
+        <header class="masthead">
+            <div id="topcolor">
+                <div id="logo">
+                    <a href="index.html">
             <img src="https://github.com/codercamps/js-robotstore/blob/master/images/logo.jpg?raw=true" width="100">
       </a>
 
-            </div>
+                </div>
 
-            <div id="logo">
-                <a href="index.html">   
+                <div id="logo">
+                    <a href="index.html">   
             <img src="https://github.com/codercamps/js-robotstore/blob/master/images/Mr.-Robot-Welcome.png?raw=true" width="300" height="100">
          </a>
-            </div>
+                </div>
+
+
+
+                </br>
+                </br>
+                </br>
+                </br>
 
 
 
 
+                <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color:white; background-color:white;">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+                    <a class="navbar-brand" href="index.html" style="color:white;">Mr. Robot</a></a>
 
-
-
-            <div id="nav1">
-                <nav class="navbar-background">
-                    <ul id="bulletp">
-                        <li><a class="navlink" id="navlinkactive" href="index.html">Home</a></li>
-                        <li><a class="navlink" href="robots.html">Robots</a></li>
-                        <li><a class="navlink" href="computers.html">Hardware</a></li>
-                        <li><a class="navlink" href="contact.html">Contact</a></li>
-                        <li><a class="navlink" href="about.html">About</a></li>
-                    </ul>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color:red;">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link active" id="linkactive" style="background-color:red; color:black;" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="robots.html">Robots</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="computers.html">Hardware</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About us</a>
+                            </li>
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+                    </div>
                 </nav>
             </div>
-        </div>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
-        </br>
 
-    </header>
+        </header>
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-3" "col-md-3" "col-sm-6" "col-xs-12" style="background-color:blue;">
+                    <section id="welcometext" class="pull-left" style="text-align:center;">
 
+                        <div id="productofthemonth">
+                            <header>
+                                <h2>Welcome to Mr Robot!</h2>
+                            </header>
 
-    <div id="welcomeimage">
-        <img src="https://github.com/codercamps/js-robotstore/blob/master/images/robot_hello.png?raw=true" height="200" />
-    </div>
+                            <img src="https://github.com/codercamps/js-robotstore/blob/master/images/robot_hello.png?raw=true" height="200">
 
+                        </div>
+                    </section>
+                </div>
+                <div class="col-lg-9" "col-md-3" "col-sm-6" "col-xs-12" style="background-color:aqua">
 
-    <section id="welcometext">
-        <header>Welcome to Mr Robot!</header>
-        <div id="twocol">
-            <span>
+                    <div id="twocol">
+                        <span class="pull-right">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in lobortis ex. Suspendisse vestibulum varius porta. Ut ligula risus, fermentum nec elit eget, feugiat consequat diam. Donec accumsan tristique convallis. Curabitur sit amet facilisis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sollicitudin augue et metus volutpat pellentesque. Maecenas dui quam, iaculis at massa in, varius varius lectus.
             Fusce efficitur justo sed lobortis efficitur. Sed vel quam at mi tristique convallis non id justo. Vestibulum molestie odio sed congue tempor. Mauris at nisl a risus finibus efficitur. Mauris quis luctus erat, id auctor tellus. Nulla vel suscipit metus. Donec porta dapibus eros et finibus. Maecenas suscipit nisl sed dictum luctus. Proin suscipit laoreet ante a dictum. Donec ornare, erat quis dignissim maximus, neque ex laoreet massa, sed convallis turpis turpis ut elit. Suspendisse varius augue ante, sed fermentum dui facilisis non. Nulla neque leo, placerat ut tempor quis, ornare sed lorem. Mauris egestas sem non magna semper lobortis.
             <p><mark>Note that our store is closed on Christmas eve and Christmas day.</mark></p>
+              
+                    </span>
+                    </div>
+                </div>
             </div>
-        </span>
-    </section>
-
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-    </br>
-
-    <script type="text/javascript" src="script.js"></script>
-    </body>
-    </div>
-    <footer>
-        <div id="indexfooter">
-            Our address is <address>1011 Crater Ave, Moon City: THE MOON</address> All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com">Mr Robot!</a> This page was generated on <time>09:25:04.123</time>.
 
         </div>
-    </footer>
+</div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script.js" type="text/javascript"></script>
+
+</body>
+
+<footer>
+    <div id="indexfooter">
+        Our address is <address>1011 Crater Ave, Moon City: THE MOON</address> All site contents is copyright <a class="mainlink" href="http://www.mrrobot.com">Mr Robot!</a> This page was generated on <time>09:25:04.123</time>.
+
+    </div>
+</footer>
 
 </html>

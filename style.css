@@ -1,77 +1,53 @@
+@media (max-width:991px) {
+    .pclinks {
+        visibility: hidden;
+    }
+    .pclogo {
+        visibility: hidden;
+    }
+}
 
+@media (min-width:991px) {
+    .mobilelinks {
+        visibility: hidden;
+    }
+    .mobilelogo {
+        visibility: hidden;
+        float: left;
+    }
+}
 
-#twocol {
-    column-count: 2;
+#mobilelogos {
+    float: left;
+    width: 50%;
+}
+
+#linkactive {
+    background-color: red !important;
+}
+
+.nav-link active.a {
+    background-color: red !important;
+}
+
+.nav-link:hover {
+    background-color: green !important;
+}
+
+.nav-link {
+    color: white !important;
 }
 
 
+.nogap {
+    padding: 0 !important;
+    margin: 0 !important;
+}
 
-#bulletp li {
+li {
     list-style-type: none;
 }
 
-
-
-#nav1 {
-    display: inline;
-    border: 20px;
-    background-color: grey;
-    text-align: center;
-}
-
-#navlinkactive {
-    color: black;
-    font-size: 16px;
-    background-color: red;
-}
-
-.navlink {
-    color: blue;
-    font-size: 16px;
-    background-color: grey;
-    float: left;
-    width: 100;
-    height: 100%;
-    text-align: center;
-}
-
-#navlinkactive,
-.navlink {
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#bulletp {
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    width: 100%;
-    top: 0;
-    height: 100%;
-    display: inline-block;
-    background-color: grey;
-}
-
-#welcomeimage {
-    display: inline-block;
-    text-align: center;
-    margin-left: 400px;
-}
-
-li a:hover:not(.active) {
-    background-color: #31bae7;
-}
-
-.active {
-    color: #4CAF50;
-}
-
-
-.headername {
-    text-align: center;
-}
 
 #logo {
     text-align: left;
@@ -91,20 +67,20 @@ body:before {
 
 #fontcomp {
     font-family: 'Cinzel', serif;
-    ;
+    border-style: groove;
+    border-width: 10px;
+    border-color: grey white grey black;
+    padding: 0px;
 }
 
 #historyfont {
     font-family: 'Architects Daughter', cursive;
     margin: auto;
     width: 60%;
-    border: 3px solid #73AD21;
     padding: 10px;
 }
 
-#robots1 {
-    text-align: center;
-}
+
 
 #indexfooter {
     width: 90%;
@@ -113,102 +89,40 @@ body:before {
     font-family: 'IM Fell Great Primer', serif;
 }
 
-#questions {
-    margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;
-    text-align: center;
-}
 
-#contact1 {
-    margin: auto;
-    width: 60%;
-    border: 3px solid #73AD21;
-    padding: 10px;
-}
-#robo1bc:hover, #robo2bc:hover, #robo3bc:hover {
-    background-color:yellow;
-}
-
-#robo1bc {
-    background-color: #b0e0e6;
-}
-
-#robo2bc {
-    background-color: #bae1ff;
-    text-align: center;
-}
-
-#robo3bc {
-    background-color: #d0f4f3;
-    text-align: center;
-}
-
-#robo1bc,
-#robo2bc,
-#robo3bc li {
-    list-style-type: none
-}
-
-#contactform1 {
-    margin: auto;
-    width: 60%;
-    border: 3px solid #16cac3;
-    padding: 10px;
-    text-align: center;
-}
-
-#hardware1 {
-    margin: auto;
-    width: 60%;
-    border: 3px solid #296b0e;
-    padding: 10px;
-    text-align: center;
+#productofthemonth {
+    text-align: center !important;
 }
 
 
 
 
-
-
-
-
-
-
-#myUL {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-#myUL li a {
-  border: 1px solid #ddd;
-  margin-top: -1px; /* Prevent double borders */
-  background-color: #f6f6f6;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  color: black;
-  display: block
-}
-
-#myUL li a:hover:not(.header) {
-  background-color: #eee;
+#descriptionbot {
+    color: darkturquoise;
+    font-size: 12px;
 }
 
 
-    
-label:hover, label:active, input:hover+label, input:active+label {
-    background:yellow;
+#twocol {
+    column-count: 2
+}
+
+
+
+
+label:hover,
+label:active,
+input:hover+label,
+input:active+label {
+    background: yellow !important;
 }
 
 input:focus {
-    background-color:yellow;
+    background-color: yellow !important;
 }
 
 textarea:focus {
-    background-color:yellow;
+    background-color: yellow !important;
 }
 
 
@@ -217,37 +131,38 @@ textarea:focus {
 
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #myInput {
-  background-image: url('/css/searchicon.png');
-  background-position: 10px 12px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
 }
 
-#myUL {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+
+
+
+#textarea1 {
+    resize: none;
+    overflow: none;
+    width:100%;
+    height:100%;
 }
 
-#myUL li a {
-  border: 1px solid #ddd;
-  margin-top: -1px; /* Prevent double borders */
-  background-color: #f6f6f6;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  color: black;
-  display: block
+@media screen and (max-width: 767px) {
+    textarea {
+        width:100%;
+    }
+    #pagify1 {
+    font-size:50px;
+    text-align:center;
+}
 }
 
-#myUL li a:hover:not(.header) {
-  background-color: #eee;
-}
+
